@@ -173,8 +173,7 @@ namespace LinQ01
                         UnitPrice = 13.0000M, UnitsInStock = 32 }
             };
 
-            string xmlFilePath = @"D:\Route\Assignments\C#\LinQ\1\LinQ01\LinQ01\Customers.xml";
-            CustomersList = (from e in XDocument.Load(xmlFilePath).Root.Elements("customer")
+            CustomersList = (from e in XDocument.Load("Customers.xml").Root.Elements("customer")
                              select new Customer()
                              {
                                  CustomerID = (string)e.Element("id"),

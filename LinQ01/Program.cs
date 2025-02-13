@@ -76,8 +76,7 @@
             //Console.WriteLine("\n4. Total of Numbers in Array:");
             //Console.WriteLine(total);
 
-            //string dictionaryPath = @"D:\Route\Assignments\C#\LinQ\1\LinQ01\LinQ01\dictionary_english.txt";
-            //var words = File.ReadAllLines(dictionaryPath);
+            //var words = File.ReadAllLines("dictionary_english.txt");
             //var totalCharacters = words.Sum(word => word.Length);
             //Console.WriteLine("\n5. Total Number of Characters in Dictionary:");
             //Console.WriteLine(totalCharacters);
